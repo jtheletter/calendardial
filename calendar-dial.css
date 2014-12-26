@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+@font-face {
+  font-family: 'Old Style';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/oldssch_-webfont.eot');
+  src: url('fonts/oldssch_-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/oldssch_-webfont.woff2') format('woff2'),
+       url('fonts/oldssch_-webfont.woff') format('woff'),
+       url('fonts/oldssch_-webfont.ttf') format('truetype');
+}
+/* Reset */
+a,
+body,
+button,
+div,
+html,
+p {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+/* Elements */
+body {
+  background-color: #777;
+  font-family: 'Old Style', Palatino, Garamond, Georgia, serif;
+  text-align: center;
+}
+a,
+a:link, /* 'a:link' is for unvisited links */
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+button {
+  background-color: #bbb;
+  border: 0;
+  bottom: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Old Style', Palatino, Garamond, Georgia, serif;
+  font-size: 24px;
+  height: 32px;
+  left: 0;
+  line-height: 29px;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  transition: all 0.25s;
+  width: 70px;
+}
+button:active,
+button:focus,
+button:hover {
+  background-color: #fff;
+}
+button a {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+footer {
+  bottom: 0;
+  height: 40px;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+main {
+  bottom: 40px;
+  display: block; /* Missing from IE 11. */
+  left: 4px;
+  position: fixed;
+  right: 4px;
+  top: 4px;
+}
+/* Classes */
+.calendar {
+  background-image: url('calendar-dial.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.fix-full {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
