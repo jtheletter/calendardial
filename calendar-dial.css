@@ -1,29 +1,13 @@
 @charset 'UTF-8';
 
-@font-face {
-  font-family: 'Old Style';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/oldssch_-webfont.eot');
-  src: url('fonts/oldssch_-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/oldssch_-webfont.woff2') format('woff2'),
-       url('fonts/oldssch_-webfont.woff') format('woff'),
-       url('fonts/oldssch_-webfont.ttf') format('truetype');
-  unicode-range: U+0020-005A;
-}
-
-@keyframes pulse {
-  from {
-    background-color: #aaa;
-  }
-  to {
-    background-color: #ccc;
-  }
-}
-
-a, a:link, a:visited {
-  color: #000;
-  text-decoration: none;
+a {
+  bottom: 0;
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 body {
@@ -31,32 +15,31 @@ body {
 }
 
 button {
-  animation: pulse alternate infinite 2.5s;
   background-color: #bbb;
+  background-image: url('pdf-button.svg');
+  background-repeat: no-repeat;
+  background-size: 120px 40px;
   border: 0;
   bottom: 0;
   box-shadow: 0 0 2.5px 2.5px #555;
   cursor: pointer;
-  font-family: 'Old Style', Palatino, Garamond, Georgia, serif;
+  height: 40px;
   left: 0;
-  line-height: 1.25;
   margin: auto;
+  overflow: hidden;
   padding: 0;
   position: fixed;
+  text-indent: 100%;
+  top: 0;
   transition: background-color 0.25s;
+  white-space: nowrap;
+  width: 120px;
 }
 
 button:active,
 button:focus,
 button:hover {
-  animation: none;
-  background-color: #fff;
-}
-
-a {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
+  background-color: #eee;
 }
 
 img {
@@ -71,23 +54,10 @@ img {
   top: 0;
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 768px) {
   button {
-    font-size: 25px;
-    height: 35px;
-    right: auto;
-    top: 0;
-    width: 155px;
-  }
-}
-
-@media screen and (orientation: portrait) {
-  button {
-    box-shadow: 0 0 1px 1px #777;
-    font-size: 22.5px;
+    background-size: 90px 30px;
     height: 30px;
-    right: 0;
-    top: auto;
-    width: 135px;
+    width: 90px;
   }
 }

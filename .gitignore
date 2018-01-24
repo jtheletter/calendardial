@@ -1,9 +1,2 @@
-*.ai
-*.doc
-*.docx
-*.indd
-*.psd
-*.xls
-*.xlsx
 .DS_Store
 _*.*
