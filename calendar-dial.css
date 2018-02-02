@@ -1,63 +1,56 @@
 @charset 'UTF-8';
 
 a {
-  bottom: 0;
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+    background-color: #bbb;
+    background-image: url('pdf-button.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    border: 0;
+    bottom: 0;
+    box-shadow: 0 0 2.5px 2.5px #555;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    text-indent: 100%;
+    top: 0;
+    transition: background-color 0.25s;
+    white-space: nowrap;
+    width: 40px;
+}
+
+a:active,
+a:focus,
+a:hover {
+    background-color: #eee;
 }
 
 body {
-  background-color: #777;
-}
-
-button {
-  background-color: #bbb;
-  background-image: url('pdf-button.svg');
-  background-repeat: no-repeat;
-  background-size: 120px 40px;
-  border: 0;
-  bottom: 0;
-  box-shadow: 0 0 2.5px 2.5px #555;
-  cursor: pointer;
-  height: 40px;
-  left: 0;
-  margin: auto;
-  overflow: hidden;
-  padding: 0;
-  position: fixed;
-  text-indent: 100%;
-  top: 0;
-  transition: background-color 0.25s;
-  white-space: nowrap;
-  width: 120px;
-}
-
-button:active,
-button:focus,
-button:hover {
-  background-color: #eee;
+    background-color: #777;
 }
 
 img {
-  box-shadow: 0 0 10px #333;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  max-height: 100%;
-  max-width: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
+    box-shadow: 0 0 10px #333;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-@media screen and (max-width: 768px) {
-  button {
-    background-size: 90px 30px;
-    height: 30px;
-    width: 90px;
-  }
+@media screen and (min-width: 768px) {
+    a {
+        background-image: url('pdf-button-long.svg');
+        background-size: 132px 40px;
+        height: 40px;
+        width: 132px;
+    }
 }
