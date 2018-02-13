@@ -1,5 +1,4 @@
 @charset 'UTF-8';
-
 a {
     background-color: #bbb;
     background-image: url('pdf-button.svg');
@@ -23,20 +22,15 @@ a {
     white-space: nowrap;
     width: 40px;
 }
-
-a:active,
-a:focus,
-a:hover {
+a:active, a:focus, a:hover {
     background-color: #eee;
 }
-
 body {
     background-color: #777;
 }
-
 img {
-    box-shadow: 0 0 10px #333;
     bottom: 0;
+    box-shadow: 0 0 10px #333;
     left: 0;
     margin: auto;
     max-height: 100%;
@@ -45,7 +39,6 @@ img {
     right: 0;
     top: 0;
 }
-
 @media screen and (min-width: 768px) {
     a {
         background-image: url('pdf-button-long.svg');
