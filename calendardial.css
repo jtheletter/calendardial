@@ -6,13 +6,12 @@ a {
     background-repeat: no-repeat;
     background-size: 40px 40px;
     border: 0;
-    bottom: 0;
     box-shadow: 0 0 2.5px 2.5px #555;
     cursor: pointer;
     display: inline-block;
     height: 40px;
     left: 0;
-    margin: auto;
+    margin: 0;
     overflow: hidden;
     padding: 0;
     position: fixed;
