@@ -1,2 +1,5 @@
+*.ai
+*.indd
+*.psd
 .DS_Store
 _*.*

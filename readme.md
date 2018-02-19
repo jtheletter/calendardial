@@ -1,5 +1,5 @@
 # Lunisolar Calendar Dial
 
-A simple site for display and download of my wall calendar.
+Combined display of seasonal points, lunar phases, and Gregorian months. Free PDF for download.
 
-[http://calendardial.info/](http://calendardial.info/)
+[http://calendardial.net/](http://calendardial.net/)
