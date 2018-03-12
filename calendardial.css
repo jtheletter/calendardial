@@ -21,7 +21,9 @@ a {
     white-space: nowrap;
     width: 40px;
 }
-a:active, a:focus, a:hover {
+a:active,
+a:focus,
+a:hover {
     background-color: #eee;
 }
 body {

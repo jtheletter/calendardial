@@ -15,8 +15,12 @@
             <image:title>Calendar Dial screenshot</image:title>
         </image:image>
         <image:image>
-            <image:loc>http://calendardial.net/icons/calendardial-512x512.png"</image:loc>
+            <image:loc>http://calendardial.net/calendardial-logo.png"</image:loc>
             <image:title>Calendar Dial logo</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://calendardial.net/calendardial-logo-silhouette.png"</image:loc>
+            <image:title>Calendar Dial logo silhouette</image:title>
         </image:image>
     </url>
 </urlset>
