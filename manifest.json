@@ -15,7 +15,7 @@
     ],
     "theme_color": "#777777",
     "background_color": "#777777",
-    "start_url": "http://calendardial.net/",
+    "start_url": "https://calendardial.net/",
     "display": "standalone",
     "orientation": "any"
 }

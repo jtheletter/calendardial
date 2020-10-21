@@ -1,1 +1,1 @@
-Sitemap: http://calendardial.net/sitemap.xml
+Sitemap: https://calendardial.net/sitemap.xml
