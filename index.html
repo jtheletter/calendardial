@@ -58,6 +58,7 @@
         </script>
 
         <!-- Styles & scripts. -->
+        <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="calendardial.css">
 
         <!-- Analytics. -->
@@ -73,7 +74,26 @@
     <body>
 
         <img alt="Lunisolar Calendar Dial" src="calendardial.png">
-        <a href="calendardial.pdf" title="Open PDF">PDF</a>
+
+        <a class="toggle-label toggle-label-pdf" href="calendardial.pdf" title="Open PDF"><small>Open PDF</small></a>
+
+        <input class="toggle toggle-panel" id="toggle-panel" type="checkbox">
+        <label class="toggle-label toggle-label-panel" id="toggle-label-panel" for="toggle-panel" title="View Info"><small>View Info</small><span></span></label>
+
+        <div class="panel" id="panel">
+            <h1 class="panel-brand">LUNISOLAR CALENDAR DIAL</h1>
+            <p class="panel-p">The year is defined from the first full moon after winter solstice, to the last full moon on or before winter solstice.</p>
+            <p class="panel-p">The year begins at the bottom of the dial and proceeds clockwise (in the same manner a day is tracked on a sundial).</p>
+            <p class="panel-p">Major points in the sun’s annual progression approximately overlap phases of the moon and months of Gregorian counting.</p>
+            <p class="panel-p">Years with thirteen full moons mark the first as <span class="blue-moon">O</span>, to indicate belewe (“betrayer”) or false first moon (traditional blue/leap moon).</p>
+            <p class="panel-p panel-link"><a href="calendardial.pdf" title="Open PDF">PDF</a></p>
+            <p class="panel-p panel-link"><a href="https://twitter.com/CalendarDial" target="_blank" title="Visit">Twitter</a></p>
+            <p class="panel-p panel-link"><a href="https://www.facebook.com/CalendarDial/" target="_blank" title="Visit">Facebook</a></p>
+            <p class="panel-p panel-link"><a href="mailto:&#099;&#097;&#108;&#101;&#110;&#100;&#097;&#114;&#100;&#105;&#097;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank" title="Email">&#099;&#097;&#108;&#101;&#110;&#100;&#097;&#114;&#100;&#105;&#097;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></p>
+            <p class="panel-p panel-link"><a href="https://dateclock.net/" target="_blank" title="Visit">Date Clock</a></p>
+            <p class="panel-p panel-link"><a href="https://jtheletter.com/" target="_blank" title="Visit">jtheletter.com</a></p>
+            <p class="panel-p panel-copyright">©2009<img width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="">–2021 Jay Pea</p>
+        </div>
 
     </body>
 </html>
