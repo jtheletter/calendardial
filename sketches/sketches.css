@@ -1,0 +1,52 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'Old Style';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/oldsh___-webfont.woff2') format('woff2'),
+         url('../fonts/oldsh___-webfont.woff') format('woff');
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Old Style', 'Times New Roman', serif;
+    pointer-events: none;
+    text-align: center;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+a {
+    color: #000;
+    pointer-events: auto;
+    position: relative;
+    text-decoration: underline;
+    transition: color 0.25s;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #777;
+}
+h1 {
+    font-size: 133%;
+    margin: 1em 0;
+}
+h2 {
+    margin: 0 0 1em;
+}
+img {
+    display: block;
+    margin: auto;
+}
+.link-wrap {
+    margin: 1em 0 2em;
+}
+.sketch-wrap {
+    display: inline-block;
+}

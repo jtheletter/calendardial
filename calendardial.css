@@ -3,8 +3,8 @@
     font-family: 'Old Style';
     font-style: normal;
     font-weight: normal;
-    src: url('oldsh___-webfont.woff2') format('woff2'),
-         url('oldsh___-webfont.woff') format('woff');
+    src: url('fonts/oldsh___-webfont.woff2') format('woff2'),
+         url('fonts/oldsh___-webfont.woff') format('woff');
 }
 *,
 *::before,

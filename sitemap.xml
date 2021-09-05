@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://calendardial.net/</loc>
+        <loc>https://calendardial.net/sketches/</loc>
         <image:image>
             <image:loc>https://calendardial.net/calendardial-preview-square.jpg"</image:loc>
             <image:title>Calendar Dial preview (square)</image:title>
@@ -21,6 +22,14 @@
         <image:image>
             <image:loc>https://calendardial.net/calendardial-logo-silhouette.png"</image:loc>
             <image:title>Calendar Dial logo silhouette</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://calendardial.net/sketches/calendardial-sketch-1.jpg</image:loc>
+            <image:title>Calendar Dial sketch 1</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://calendardial.net/sketches/calendardial-sketch-2.jpg</image:loc>
+            <image:title>Calendar Dial sketch 1</image:title>
         </image:image>
     </url>
 </urlset>
